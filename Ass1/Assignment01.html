@@ -7522,6 +7522,24 @@ a.anchor-link {
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=d3af5c5e0099c52">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython2"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">warnings</span>
+
+<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s2">"ignore"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ca870bd603808318">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7530,23 +7548,6 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Common-Helper-Functions">Common Helper Functions<a class="anchor-link" href="#Common-Helper-Functions">¶</a></h2>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=d3af5c5e0099c52">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [480]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython2"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">warnings</span>
-
-<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s2">"ignore"</span><span class="p">)</span>
-</pre></div>
-</div>
 </div>
 </div>
 </div>
@@ -7566,7 +7567,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [481]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython2"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">is_non_null</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
@@ -7593,7 +7594,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [482]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython2"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">is_date_valid</span><span class="p">(</span><span class="n">df_col</span><span class="p">,</span> <span class="n">step</span><span class="p">):</span>
@@ -7659,12 +7660,12 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=8512368c5495fe1a">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=8512368c5495fe1a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [483]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython2"><pre><span></span><span class="n">df_tempt</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'data/daily-minimum-temperatures-in-me.csv'</span><span class="p">)</span>
@@ -7674,20 +7675,6 @@ a.anchor-link {
 <span class="n">is_non_null</span><span class="p">(</span><span class="n">df_tempt</span><span class="p">)</span>
 <span class="n">is_date_valid</span><span class="p">(</span><span class="n">df_tempt</span><span class="p">[</span><span class="s1">'Date'</span><span class="p">],</span> <span class="s1">'D'</span><span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>number of missing columns:  0
-DatetimeIndex(['1984-12-31', '1988-12-31'], dtype='datetime64[ns]', freq=None)
-</pre>
 </div>
 </div>
 </div>
@@ -7703,12 +7690,12 @@ DatetimeIndex(['1984-12-31', '1988-12-31'], dtype='datetime64[ns]', freq=None)
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=cad4acf00715cfaf">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=cad4acf00715cfaf">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [484]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython2"><pre><span></span><span class="n">dates</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'1984-12-30'</span><span class="p">,</span> <span class="s1">'1985-01-01'</span><span class="p">,</span> <span class="s1">'1988-12-30'</span><span class="p">,</span> <span class="s1">'1989-01-01'</span><span class="p">]</span>
@@ -7731,19 +7718,6 @@ DatetimeIndex(['1984-12-31', '1988-12-31'], dtype='datetime64[ns]', freq=None)
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>DatetimeIndex([], dtype='datetime64[ns]', freq='D')
-</pre>
-</div>
-</div>
-</div>
-</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2ba4b6c25069af14">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7755,54 +7729,17 @@ DatetimeIndex(['1984-12-31', '1988-12-31'], dtype='datetime64[ns]', freq=None)
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=2a0f47a2ffa1b960">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=2a0f47a2ffa1b960">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [485]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython2"><pre><span></span><span class="n">duplicates</span> <span class="o">=</span> <span class="n">df_tempt</span><span class="p">[</span><span class="n">df_tempt</span><span class="o">.</span><span class="n">duplicated</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">'Date'</span><span class="p">])]</span>
 <span class="n">duplicates</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[485]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Date</th>
-<th>mean-tempt</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-</div>
 </div>
 </div>
 </div>
@@ -8028,12 +7965,12 @@ DatetimeIndex(['1984-12-31', '1988-12-31'], dtype='datetime64[ns]', freq=None)
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=60210ac9df558f11">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=60210ac9df558f11">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [486]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython2"><pre><span></span><span class="n">df_co2</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'data/co2_weekly_mlo.csv'</span><span class="p">)</span>
@@ -8052,54 +7989,69 @@ DatetimeIndex(['1984-12-31', '1988-12-31'], dtype='datetime64[ns]', freq=None)
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=ab6cb55cba66b2a1">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>number of missing columns:  0
-DatetimeIndex([], dtype='datetime64[ns]', freq='W-SUN')
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython2"><pre><span></span><span class="n">df_co2</span><span class="p">[</span><span class="n">df_co2</span><span class="p">[</span><span class="s1">'average'</span><span class="p">]</span> <span class="o">==</span> <span class="o">-</span><span class="mf">999.99</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=95512d09d62343e1">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython2"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 
- Duplicates
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[486]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+<span class="n">df_co2</span><span class="p">[</span><span class="s1">'average'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_co2</span><span class="p">[</span><span class="s1">'average'</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="o">-</span><span class="mf">999.99</span><span class="p">,</span> <span class="n">pd</span><span class="o">.</span><span class="n">NA</span><span class="p">)</span>
+<span class="n">mask</span> <span class="o">=</span> <span class="n">df_co2</span><span class="p">[</span><span class="s1">'average'</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'null'</span>
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+<span class="n">indices</span> <span class="o">=</span> <span class="n">df_co2</span><span class="p">[</span><span class="n">mask</span><span class="p">]</span><span class="o">.</span><span class="n">index</span>
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>datetime</th>
-<th>decimal</th>
-<th>average</th>
-<th>ndays</th>
-<th>1 year ago</th>
-<th>10 years ago</th>
-<th>increase since 1800</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">indices</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_co2</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">prev_val</span> <span class="o">=</span> <span class="n">df_co2</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">'average'</span><span class="p">]</span>
+        <span class="n">next_val</span> <span class="o">=</span> <span class="n">df_co2</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">'average'</span><span class="p">]</span>
+        <span class="n">df_co2</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="s1">'average'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">prev_val</span> <span class="o">+</span> <span class="n">next_val</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
+</pre></div>
 </div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=97503f91453cecc5">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython2"><pre><span></span><span class="n">df_co2</span><span class="p">[</span><span class="n">df_co2</span><span class="p">[</span><span class="s1">'average'</span><span class="p">]</span> <span class="o">==</span> <span class="o">-</span><span class="mf">999.99</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=a76b7b44d1859a58">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython2"><pre><span></span><span class="n">df_co2</span><span class="p">[</span><span class="n">df_co2</span><span class="p">[</span><span class="s1">'average'</span><span class="p">]</span> <span class="o">==</span> <span class="n">pd</span><span class="o">.</span><span class="n">NA</span><span class="p">]</span>
+</pre></div>
 </div>
 </div>
 </div>
@@ -8122,7 +8074,7 @@ DatetimeIndex([], dtype='datetime64[ns]', freq='W-SUN')
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Daily Minimum Temperatures in Melbourne. The dataset collect data from <code>1981-01-01 01:00:00</code> to <code>1990-12-31 00:00:00</code>.</p>
+<p>Hourly Energy Consumption. The dataset collect data from <code>1981-01-01 01:00:00</code> to <code>1990-12-31 00:00:00</code>.</p>
 <table>
 <thead>
 <tr>
@@ -8158,12 +8110,12 @@ DatetimeIndex([], dtype='datetime64[ns]', freq='W-SUN')
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=add7df2fe0e194e9">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=add7df2fe0e194e9">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [487]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython2"><pre><span></span><span class="n">df_aep</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'data/AEP_hourly.csv'</span><span class="p">)</span>
@@ -8172,34 +8124,6 @@ DatetimeIndex([], dtype='datetime64[ns]', freq='W-SUN')
 <span class="n">is_non_null</span><span class="p">(</span><span class="n">df_aep</span><span class="p">)</span>
 <span class="n">is_date_valid</span><span class="p">(</span><span class="n">df_aep</span><span class="p">[</span><span class="s1">'Datetime'</span><span class="p">],</span> <span class="s1">'H'</span><span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>number of missing columns:  0
-DatetimeIndex(['2004-10-31 02:00:00', '2005-04-03 03:00:00',
-               '2005-10-30 02:00:00', '2006-04-02 03:00:00',
-               '2006-10-29 02:00:00', '2007-03-11 03:00:00',
-               '2007-11-04 02:00:00', '2008-03-09 03:00:00',
-               '2008-11-02 02:00:00', '2009-03-08 03:00:00',
-               '2009-11-01 02:00:00', '2010-03-14 03:00:00',
-               '2010-11-07 02:00:00', '2010-12-10 00:00:00',
-               '2011-03-13 03:00:00', '2011-11-06 02:00:00',
-               '2012-03-11 03:00:00', '2012-11-04 02:00:00',
-               '2012-12-06 04:00:00', '2013-03-10 03:00:00',
-               '2013-11-03 02:00:00', '2014-03-09 03:00:00',
-               '2014-03-11 14:00:00', '2015-03-08 03:00:00',
-               '2016-03-13 03:00:00', '2017-03-12 03:00:00',
-               '2018-03-11 03:00:00'],
-              dtype='datetime64[ns]', freq=None)
-</pre>
 </div>
 </div>
 </div>
@@ -8215,12 +8139,12 @@ DatetimeIndex(['2004-10-31 02:00:00', '2005-04-03 03:00:00',
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=81400ba120b57f7c">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=81400ba120b57f7c">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [488]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython2"><pre><span></span><span class="n">helper_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
@@ -8238,86 +8162,41 @@ DatetimeIndex(['2004-10-31 02:00:00', '2005-04-03 03:00:00',
              <span class="s1">'2014-03-11 14:00:00'</span><span class="p">,</span> <span class="s1">'2015-03-08 03:00:00'</span><span class="p">,</span>
              <span class="s1">'2016-03-13 03:00:00'</span><span class="p">,</span> <span class="s1">'2017-03-12 03:00:00'</span><span class="p">,</span>
              <span class="s1">'2018-03-11 03:00:00'</span><span class="p">],</span>
-    <span class="s1">'AEP_MW'</span><span class="p">:</span> <span class="n">df_aep</span><span class="p">[</span><span class="s1">'AEP_MW'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+    <span class="s1">'AEP_MW'</span><span class="p">:</span> <span class="mi">0</span>
 <span class="p">})</span>
 
 <span class="n">df_aep</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df_aep</span><span class="p">,</span> <span class="n">helper_df</span><span class="p">],</span> <span class="n">ignore_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">df_aep</span><span class="p">[</span><span class="s1">'Datetime'</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df_aep</span><span class="p">[</span><span class="s1">'Datetime'</span><span class="p">])</span>
-<span class="n">df_aep</span> <span class="o">=</span> <span class="n">df_aep</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s1">'Datetime'</span><span class="p">])</span>
+<span class="n">df_aep</span> <span class="o">=</span> <span class="n">df_aep</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'Datetime'</span><span class="p">)</span>
+
+<span class="n">missing</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">([</span>
+    <span class="s1">'2004-10-31 02:00:00'</span><span class="p">,</span><span class="s1">'2005-04-03 03:00:00'</span><span class="p">,</span><span class="s1">'2005-10-30 02:00:00'</span><span class="p">,</span>
+    <span class="s1">'2006-04-02 03:00:00'</span><span class="p">,</span><span class="s1">'2006-10-29 02:00:00'</span><span class="p">,</span><span class="s1">'2007-03-11 03:00:00'</span><span class="p">,</span>
+    <span class="s1">'2007-11-04 02:00:00'</span><span class="p">,</span><span class="s1">'2008-03-09 03:00:00'</span><span class="p">,</span><span class="s1">'2008-11-02 02:00:00'</span><span class="p">,</span>
+    <span class="s1">'2009-03-08 03:00:00'</span><span class="p">,</span><span class="s1">'2009-11-01 02:00:00'</span><span class="p">,</span><span class="s1">'2010-03-14 03:00:00'</span><span class="p">,</span>
+    <span class="s1">'2010-11-07 02:00:00'</span><span class="p">,</span><span class="s1">'2010-12-10 00:00:00'</span><span class="p">,</span><span class="s1">'2011-03-13 03:00:00'</span><span class="p">,</span>
+    <span class="s1">'2011-11-06 02:00:00'</span><span class="p">,</span><span class="s1">'2012-03-11 03:00:00'</span><span class="p">,</span><span class="s1">'2012-11-04 02:00:00'</span><span class="p">,</span>
+    <span class="s1">'2012-12-06 04:00:00'</span><span class="p">,</span><span class="s1">'2013-03-10 03:00:00'</span><span class="p">,</span><span class="s1">'2013-11-03 02:00:00'</span><span class="p">,</span>
+    <span class="s1">'2014-03-09 03:00:00'</span><span class="p">,</span><span class="s1">'2014-03-11 14:00:00'</span><span class="p">,</span><span class="s1">'2015-03-08 03:00:00'</span><span class="p">,</span>
+    <span class="s1">'2016-03-13 03:00:00'</span><span class="p">,</span><span class="s1">'2017-03-12 03:00:00'</span><span class="p">,</span><span class="s1">'2018-03-11 03:00:00'</span>
+<span class="p">])</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">df_aep</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'Datetime'</span><span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'Datetime'</span><span class="p">)</span>
+<span class="n">df2</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">reindex</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">union</span><span class="p">(</span><span class="n">missing</span><span class="p">))</span><span class="o">.</span><span class="n">sort_index</span><span class="p">()</span>
+
+<span class="n">prev</span> <span class="o">=</span> <span class="n">df2</span><span class="p">[</span><span class="s1">'AEP_MW'</span><span class="p">]</span><span class="o">.</span><span class="n">ffill</span><span class="p">()</span>
+<span class="nb">next</span> <span class="o">=</span> <span class="n">df2</span><span class="p">[</span><span class="s1">'AEP_MW'</span><span class="p">]</span><span class="o">.</span><span class="n">bfill</span><span class="p">()</span>
+
+<span class="n">avg_at_missing</span> <span class="o">=</span> <span class="p">((</span><span class="n">prev</span> <span class="o">+</span> <span class="nb">next</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">missing</span><span class="p">]</span>
+
+<span class="n">df2</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">missing</span><span class="p">,</span> <span class="s1">'AEP_MW'</span><span class="p">]</span> <span class="o">=</span> <span class="n">avg_at_missing</span>
+<span class="n">df_filled</span> <span class="o">=</span> <span class="n">df2</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+
+<span class="n">df_aep</span> <span class="o">=</span> <span class="n">df_filled</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">df_aep</span> <span class="o">=</span> <span class="n">df_aep</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">'index'</span><span class="p">:</span> <span class="s1">'Datetime'</span><span class="p">})</span>
 <span class="n">is_non_null</span><span class="p">(</span><span class="n">df_aep</span><span class="p">)</span>
 <span class="n">is_date_valid</span><span class="p">(</span><span class="n">df_aep</span><span class="p">[</span><span class="s1">'Datetime'</span><span class="p">],</span> <span class="s1">'H'</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\n</span><span class="s1"> Duplicates'</span><span class="p">)</span>
-<span class="n">duplicates</span> <span class="o">=</span> <span class="n">df_aep</span><span class="p">[</span><span class="n">df_aep</span><span class="o">.</span><span class="n">duplicated</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">'Datetime'</span><span class="p">])]</span>
-<span class="n">duplicates</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>number of missing columns:  0
-DatetimeIndex([], dtype='datetime64[ns]', freq='h')
-
- Duplicates
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[488]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Datetime</th>
-<th>AEP_MW</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>88394</th>
-<td>2014-11-02 02:00:00</td>
-<td>12994.0</td>
-</tr>
-<tr>
-<th>97131</th>
-<td>2015-11-01 02:00:00</td>
-<td>10542.0</td>
-</tr>
-<tr>
-<th>106035</th>
-<td>2016-11-06 02:00:00</td>
-<td>11008.0</td>
-</tr>
-<tr>
-<th>114770</th>
-<td>2017-11-05 02:00:00</td>
-<td>10596.0</td>
-</tr>
-</tbody>
-</table>
-</div>
 </div>
 </div>
 </div>
@@ -8333,12 +8212,28 @@ DatetimeIndex([], dtype='datetime64[ns]', freq='h')
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=67ae8f642fe4faf1">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=6229277e922578e3">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [489]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython2"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\n</span><span class="s1"> Duplicates'</span><span class="p">)</span>
+<span class="n">duplicates</span> <span class="o">=</span> <span class="n">df_aep</span><span class="p">[</span><span class="n">df_aep</span><span class="o">.</span><span class="n">duplicated</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">'Datetime'</span><span class="p">])]</span>
+<span class="n">duplicates</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=f004fcf4106c2e86">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython2"><pre><span></span><span class="n">df_aep</span> <span class="o">=</span> <span class="n">df_aep</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">'Datetime'</span><span class="p">])</span>
@@ -8350,47 +8245,84 @@ DatetimeIndex([], dtype='datetime64[ns]', freq='h')
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=5d6866ed30887ba7">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>
- Duplicates
-</pre>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython2"><pre><span></span><span class="n">df_aep</span><span class="p">[</span><span class="n">df_aep</span><span class="p">[</span><span class="s1">'AEP_MW'</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
+</pre></div>
 </div>
 </div>
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[489]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=e3dc33800d71b4c2">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython2"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+<span class="n">df_aep</span><span class="p">[</span><span class="s1">'AEP_MW'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_aep</span><span class="p">[</span><span class="s1">'AEP_MW'</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">pd</span><span class="o">.</span><span class="n">NA</span><span class="p">)</span>
+<span class="n">mask</span> <span class="o">=</span> <span class="n">df_aep</span><span class="p">[</span><span class="s1">'AEP_MW'</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'null'</span>
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Datetime</th>
-<th>AEP_MW</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+<span class="n">indices</span> <span class="o">=</span> <span class="n">df_aep</span><span class="p">[</span><span class="n">mask</span><span class="p">]</span><span class="o">.</span><span class="n">index</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">indices</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_aep</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">prev_val</span> <span class="o">=</span> <span class="n">df_co2</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">'AEP_MW'</span><span class="p">]</span>
+        <span class="n">next_val</span> <span class="o">=</span> <span class="n">df_co2</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">'AEP_MW'</span><span class="p">]</span>
+        <span class="n">df_co2</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="s1">'AEP_MW'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">prev_val</span> <span class="o">+</span> <span class="n">next_val</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
+</pre></div>
 </div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=6b89846ec09e0659">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython2"><pre><span></span><span class="n">df_aep</span><span class="p">[</span><span class="n">df_aep</span><span class="p">[</span><span class="s1">'AEP_MW'</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7bd613bb3c4ad181">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Save-to-files">Save to files<a class="anchor-link" href="#Save-to-files">¶</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=ffc5d87e82e83857">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython2"><pre><span></span><span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="s1">'../data'</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">df_tempt</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">'../data/daily_tempt.csv'</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">df_co2</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">'../data/weekly_co2.csv'</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">df_aep</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">'../data/hourly_aep.csv'</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
 </div>
 </div>
 </div>
