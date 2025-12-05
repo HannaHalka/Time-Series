@@ -1,9 +1,18 @@
 # Time-Series
 
-// description //
+Homeworks for Time Series course.
+
+1. Minimum Temperatures - https://www.kaggle.com/datasets/paulbrabban/daily-minimum-temperatures-in-melbourne
+2. f
+3. f
 
 ---
 ## Assignment 1
+
+Data canalization and pre-processing.
+
+**Minimum Temperatures** - series contains information from `1981-01-01` to `1990-12-31`. This dataset describes mean daily temperature.
+
 
 ---
 ## Assignment 2
