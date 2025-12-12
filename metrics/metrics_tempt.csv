@@ -1,12 +1,15 @@
 model,rmse,mae,mape
-Seasonal 7,1.10,0.88,4456.55
+Seasonal 7,1.1,0.88,4456.55
 Seasonal 31,0.62,0.44,450.47
 Seasonal 365,0.57,0.42,53.32
 Seasonal add 365,3.49,2.82,26.79
-model_Prophet,2.69,2.10,22.70
+model_Prophet,2.69,2.1,22.7
 model_seasonal,2.71,2.12,22.86
 NHITS,3.22,2.54,27.44
-RNN,3.27,2.57,27.00
+RNN,3.27,2.57,27.0
 LSTM,3.49,2.68,26.49
 BiTCN,3.18,2.49,27.38
 KAN,3.35,2.61,28.69
+manual,5.85,4.82,0.51
+AutoARIMA,0.00,0.00,0.09
+AutoETS,0.00,0.00,0.09
